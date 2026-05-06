@@ -12,9 +12,9 @@ int game(char you, char computer) {
   // if you choose rock
   // and if computer choose paper
   if (you == 's' && computer == 'p') {
-    return 0;
-  } else if (you == 'p' && computer == 's') {
     return 1;
+  } else if (you == 'p' && computer == 's') {
+    return 0;
   }
 
   // if your choise rock
@@ -27,9 +27,9 @@ int game(char you, char computer) {
   // if your choise paper
   // and if computer's choise scissor
   if (you == 'p' && computer == 'z') {
-    return 0;
-  } else if (you == 'z' && computer == 'p') {
     return 1;
+  } else if (you == 'z' && computer == 'p') {
+    return 0;
   }
   // handle unexpected inputs
   return -2;
